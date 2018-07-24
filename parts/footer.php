@@ -1,6 +1,6 @@
-<footer class="page-footer font-small ">
+<footer class="page-footer font-small bg-light">
     <!-- Footer Elements -->
-    <div class="container">
+    <div class="container text-center">
 
         <!-- Grid row-->
         <div class="row">
@@ -42,12 +42,6 @@
 
     </div>
     <!-- Footer Elements -->
-
-    <!-- Copyright -->
-    <div class="footer-copyright text-center py-3">© 2018 Copyright:
-        <a href="https://mdbootstrap.com/bootstrap-tutorial/"> MDBootstrap.com</a>
-    </div>
-    <!-- Copyright -->
 
 </footer>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
