@@ -1,4 +1,5 @@
-
 <div class="container">
-    <p>Lorem Ipsum MAGGLE</p>
+<?php
+    getUserData(); 
+?>
 </div>
