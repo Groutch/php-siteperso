@@ -28,7 +28,7 @@ function getUserData(){
     echo "<h5 class='card-title'>".$tabinfo->{'first_name'}." ".$tabinfo->{'name'}."</h5>";
     echo "<h6 class='card-subtitle mb-2 text-muted'>".$tabinfo->{'occupation'}."</h6>";
     foreach( $tabexp as &$elem){
-        echo"<p>".$elem->{'year'}." - ".$elem->{'company'}."</p>";
+        echo"<p class='card-text'>".$elem->{'year'}." - ".$elem->{'company'}."</p>";
     }
     echo "</div>";
 }
