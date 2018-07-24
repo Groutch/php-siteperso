@@ -19,3 +19,16 @@ function getContent(){
 function getPart($name){
 	include __DIR__ . '/../parts/'. $name . '.php';
 }
+
+function getUserData(){
+    $file = file_get_contents('../data/user.json');
+    $tabinfo = json_decode($file);
+    $tabexp = $tabinfo->{'experiences'};
+    echo "<div class='card container text-center'>";
+    echo "<h5 class='card-title'>".$tabinfo->{'first_name'}." ".$tabinfo->{'name'}."</h5>";
+    echo "<h6 class='card-subtitle mb-2 text-muted'>".$tabinfo->{'occupation'}."</h6>";
+    foreach( $tabexp as &$elem){
+        echo"<p>".$elem->{'year'}." - ".$elem->{'company'}."</p>";
+    }
+    echo "</div>";
+}
