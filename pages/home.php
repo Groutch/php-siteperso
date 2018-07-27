@@ -1,5 +1,6 @@
 <!-- Main jumbotron for a primary marketing message or call to action -->
 <div class="jumbotron">
+    <h1 class="text-center">My Awesome Website</h1>
     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
