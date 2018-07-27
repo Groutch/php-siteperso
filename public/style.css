@@ -9,3 +9,16 @@ html {
 	/*font-size:62.5%;*/
     font-size:100%:
 }
+
+.carousel-control-prev-icon{
+    background-image: url('https://apufpel.com.br/assets/img/seta_prim.png')
+}
+.carousel-control-next-icon{
+    background-image: url('https://apufpel.com.br/assets/img/seta_ult.png')
+}
+.carousel-caption{
+    color:darkgreen;
+    display: inline-block;
+    background-color: rgba(128,128,128,0.7);
+}
+

@@ -10,29 +10,21 @@
                 <div class="mb-5 flex-center">
 
                     <!-- Facebook -->
-                    <a class="fb-ic">
+                    <a class="fb-ic text-success" href="http://www.facebook.com/Groutch">
                         <i class="fab fa-facebook fa-lg mr-md-5 mr-3 fa-2x"> </i>
                     </a>
                     <!-- Twitter -->
-                    <a class="tw-ic">
-              <i class="fab fa-twitter fa-lg mr-md-5 mr-3 fa-2x"> </i>
-            </a>
+                    <a class="tw-ic text-success" href="https://twitter.com/GroutchKeu">
+                        <i class="fab fa-twitter fa-lg mr-md-5 mr-3 fa-2x"> </i>
+                    </a>
                     <!-- Google +-->
-                    <a class="gplus-ic">
-              <i class="fab fa-google-plus fa-lg mr-md-5 mr-3 fa-2x"> </i>
-            </a>
+                    <a class="gplus-ic text-success" href="https://plus.google.com/112818423291580520456">
+                        <i class="fab fa-google-plus fa-lg mr-md-5 mr-3 fa-2x"> </i>
+                    </a>
                     <!--Linkedin -->
-                    <a class="li-ic">
-              <i class="fab fa-linkedin fa-lg mr-md-5 mr-3 fa-2x"> </i>
-            </a>
-                    <!--Instagram-->
-                    <a class="ins-ic">
-              <i class="fab fa-instagram fa-lg mr-md-5 mr-3 fa-2x"> </i>
-            </a>
-                    <!--Pinterest-->
-                    <a class="pin-ic">
-              <i class="fab fa-pinterest fa-lg fa-2x"> </i>
-            </a>
+                    <a class="li-ic text-success" href="">
+                        <i class="fab fa-linkedin fa-lg mr-md-5 mr-3 fa-2x"> </i>
+                    </a>
                 </div>
             </div>
             <!-- Grid column -->
